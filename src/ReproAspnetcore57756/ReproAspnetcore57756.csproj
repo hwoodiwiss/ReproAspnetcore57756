@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <RootNamespace>ReproAspnetcore57756</RootNamespace>
+    <IsAotCompatible>true</IsAotCompatible>
+    <NoWarn>$(NoWarn);CA1716</NoWarn>
+    <WarningsNotAsErrors>IL2075;$(WarningsNotAsErrors)</WarningsNotAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ReproAspnetcore57756.UI\ReproAspnetcore57756.UI.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1 @@
+./build/publish.ps1 -RuntimeIdentifier win-x64
